@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recipe Form</title>
+</head>
+<body>
+  <h1>Submit a Recipe</h1>
+  <form action="/recipe" method="post">
+    <label for="name">Recipe Name:</label>
+    <input type="text" id="name" name="name" required>
+    <h3>Ingredients</h3>
+    <label><input type="checkbox" name="ingredients" value="Flour"> Flour</label>
+    <label><input type="checkbox" name="ingredients" value="Sugar"> Sugar</label>
+    <label><input type="checkbox" name="ingredients" value="Eggs"> Eggs</label>
+    <label><input type="checkbox" name="ingredients" value="Butter"> Butter</label>
+    <br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
